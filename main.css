@@ -93,6 +93,7 @@ HEADING (TITLE)
 
 #mainTitle {
 	font-family: 'Hammersmith One', arial;
+	font-size: 6.5em;
 	margin-top: 3.7em;
 	color: #F2F2F2;
 	text-shadow: 2px 2px #363636;
@@ -110,7 +111,7 @@ SECTION (CONTENT)
 
 .contentBg {
 	background: radial-gradient(circle, #F2F2F2, #E0E0E0);
-	border-top: .3em solid #B136EB;
+	border-top: .4em solid #B136EB;
 }
 
 .list {
