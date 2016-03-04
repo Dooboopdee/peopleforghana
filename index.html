@@ -4,9 +4,7 @@
 		<title>People For Ghana</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Favicons -->
-		<link rel="shortcut icon" href="img/favicon-static.ico" type="image/x-icon">
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<!-- FONTS -->
 		<!-- Hammersmith One (main titles) -->
 		<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
@@ -26,6 +24,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- Scroll and other JS functions -->
+		<script src="scripts/functions.js"></script>
 		<!-- Main styling -->
 		<link href='main.css' rel='stylesheet' type='text/css'>
 	</head>
@@ -47,49 +47,151 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-left">
 						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="#about">About</a>
-						<li><a href="#filler3">filler</a></li>
-						<li><a href="#filler4">filler</a></li>
+						<li><a href="#issues">Issues</a>
+						<li><a href="#progress">Progress</a></li>
+						<li><a href="#difference">Make a Difference</a></li>
 					</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
+		<div id="home">
 		<div class="headingBg">
 			<div class="container">
 				<h1 id="mainTitle"><strong>People For Ghana<br/>_______________________</strong></h1>
 				<h3 id="subTitle">help + support for Ghanians</h3>
 			</div>
 		</div>
+		</div>
 		<div class="contentBg">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<h1>About</h1>
-						<h4><em>Ghana means "Warrior King"</em></h4>
-						<p>Ghana, or the Republic of Ghana, is a country home to more than 27 million African's and is located along the golf of Guinea and the Atlantic ocean, in the subregion of South Africa. Despite the growing prosperity among Ghanians, there are still major issues in everyday life that go unnoticed to those who are more fortunate. Some issues include:<br/>
-							<ul class="list">
-								<li><strong>poverty</strong></li>
-									<p class="listDescr">-&nbsp;&nbsp;While Ghana's overall poverty level has decreased, several regions in the North have only seen very small differences. Poverty rates in the North have been reported to be over two to three times the national average.</p>
-								<li><strong>hunger</strong></li>
-									<p class="listDescr">-&nbsp;&nbsp;<a href="https://www.wfp.org/stories/10-facts-about-hunger-ghana">Here</a> are some facts about hunger facing all people in Ghana today. It may be hard to believe but at least <strong>45%</strong> live on less than $1.45 per day. In Northern Ghana over <strong>88%</strong> of livelyhoods rely upon crop production, and they continue to face malnutrition due to lack of food.</p> 
-								<li><strong>corruption</strong></li>
-									<p class="listDescr">Unfortunately corruption has been prevalent in Ghana since independence was gained. From paying off the cops for drug possession to bribing politcal officials, corruption involving money and goods is common practice. Anti-corruption laws have been enacted and are apart of Ghana's constitution, but enforcing them is troublesome to say the least. Power and family relations prevails easily over the law.</p>
-								<li><strong>illiteracy</strong></li>
-									<p class="listDescr">Only 71% of Ghana's population is literate, leaving almost a third (or one out of every three people) illiterate, unable to read or write.</p>
-								<li><strong>poor government</strong></li>
-									<p class="listDescr">Most of the problems Ghana faces could be fixed or supressed if the government became much more transparent and forward with its operations and focused on the crucial issues like malnutrition and corruption. Thankfully progress is being made slowly and things are getting better, but the government of Ghana could do a lot to help improve the situation.</p>
-							</ul>
-						</p>
-					</div>
-					<div class="col-md-4">
-						<a href="images/ghanaflag.png"><img class="img-responsive" style="margin-top: 4em;" src="images/ghanaflag.png"/></a>
+				<div id="issues">
+					<div class="row">
+						<div class="col-md-8">
+							<h1>Problems Facing Ghana Today</h1>
+							<h4><em>Ghana means "Warrior King"</em></h4>
+							<p>Ghana, or the Republic of Ghana, is a country home to more than 27 million African's and is located along the golf of Guinea and the Atlantic ocean, in the subregion of South Africa. Despite the growing prosperity among Ghanians, there are still major issues in everyday life that go unnoticed to those who are more fortunate.</p>
+							<p style="font-size: 1.9em;"><em>click to expand</em><br/></p>
+							<div class="panel-group" id="accordian">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<span data-toggle="collapse" data-parent="#accordion" href="#collapse1">Poverty</span>
+										</h4>
+									</div>
+									<div id="collapse1" class="panel-collapse collapse">
+										<div class="panel-body">
+											<img class="img-responsive" src="images/poverty.jpg"/>
+											<p><br/>While Ghana's overall poverty level has decreased, several regions in the North have only seen very small differences. Poverty rates in the North have been reported to be over two to three times the national average.</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<span data-toggle="collapse" data-parent="#accordion" href="#collapse2">Hunger</span>
+										</h4>
+									</div>
+									<div id="collapse2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p>Here</a> are some facts about hunger facing all people in Ghana today. It may be hard to believe but at least <strong>45%</strong> live on less than $1.45 per day. In Northern Ghana over <strong>88%</strong> of livelyhoods rely upon crop production, and they continue to face malnutrition due to lack of food.</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<span  data-toggle="collapse" data-parent="#accordion" href="#collapse3">Corruption</span>
+										</h4>
+									</div>
+									<div id="collapse3" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p>Unfortunately corruption has been prevalent in Ghana since independence was gained. From paying off the cops for drug possession to bribing politcal officials, corruption involving money and goods is common practice. Anti-corruption laws have been enacted and are apart of Ghana's constitution, but enforcing them is troublesome to say the least. Power and family relations prevails easily over the law.</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<span data-toggle="collapse" data-parent="#accordion" href="#collapse4">Illiteracy</span>
+										</h4>
+									</div>
+									<div id="collapse4" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p>Only 71% of Ghana's population is literate, leaving almost a third (or one out of every three people) illiterate, unable to read or write.</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<span data-toggle="collapse" data-parent="#accordion" href="#collapse5">Poor Government</span>
+										</h4>
+									</div>
+									<div id="collapse5" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p>Most of the problems Ghana faces could be fixed or supressed if the government became much more transparent and forward with its operations and focused on the crucial issues like malnutrition and corruption. Thankfully progress is being made slowly and things are getting better, but the government of Ghana could do a lot to help improve the situation.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a href="images/ghanaflag.png"><img class="img-responsive" id="ghanaFlag" src="images/ghanaflag.png"/></a>
+						</div>
 					</div>
 				</div>
+				<div id="progress">
+					<h1>Progress Towards a Better Ghana</h1>
+				</div>
+				<!--<img class="img-responsive" src="images/ghana_streets.jpg"/><br/><br/>-->
+				
+			</div>
+			<div class="ghanaBg">
+
+			</div>
+			<div class="container">
+				<p><br/>With such a troublesome economic and political situation, Ghana still has managed to <a href="http://www.odi.org/publications/9371-ghana-rising-star-progress-political-voice-health-education">improve</a> itself within the last 20 years. Since the 1990's Ghana has been steadily given rise to more political voice, while military and government suppression has decreased. Malaria deaths have even halved in the country from 2001 to 2013 according to the Overseas Development Institue (ODI, odi.org). Improvements in health-care and education have also drastically improved.<br/><br/>Despite the strong development and progress made, there is still a long ways to go. The three Northern areas of Ghana are considered the poorest and poverty levels are very high. Reliance to live is based solely upon growing crops, leading to malnutrition and poverty when droughts or other poor conditions destroy foods.<br/></p>
+
+				<div id="difference">
+					<h1>Help Make a Difference&nbsp;&nbsp;<span class="glyphicon glyphicon-heart"></span></h1>
+				</div>
+				<p>Change is made by standing together for what is right. Your support can really make a difference, whether that be monetary or emotionally. You have the opportunity to help those in need in poor economic areas such as Ghana. I hope this information has informed you of the devastating issues surrounding Ghana, and opened your eyes regarding problems to those that are less fortunate.<br/><br/><br/></p>
 			</div>
 		</div>
 		<footer>
 			<p>&copy; People For Ghana 2016 | Developed by <a href="http://www.johntg.com">John Garrison</a></p>
 		</footer>
+		<script type="text/javascript">
+			// Smooth scrolling links
+			$(document).ready(function(){
+				$('a[href^="#"]').on('click',function (e) {
+
+	    			e.preventDefault();
+
+	    			var target = this.hash;
+	    			var $target = $(target);
+
+	    			$('html, body').stop().animate({
+
+	        			'scrollTop': $target.offset().top
+
+	    			}, 850, 'swing', function () {
+
+	        			window.location.hash = target;
+
+	    			});
+				});
+			});
+
+			$(function() {
+    			$('li a').click(function(e) {
+        			e.preventDefault();
+       				var $this = $(this);
+        			$this.closest('ul').find('.active').removeClass('active');
+        			$this.parent().addClass('active');
+    			});
+			});
+		</script>
 	</body>
 </html>
