@@ -31,6 +31,23 @@ FONTS
 
 
 /*****************************
+MEDIA QUEIRIES
+*****************************/
+
+@media all and (max-width: 600px) {
+    .navbar-nav {
+        margin: 7.5px 0px;
+    }
+    .navbar .nav > li {
+        display: block;
+    }
+    .navbar .nav > li  img {
+        margin: auto;
+    }
+}
+
+
+/*****************************
 GENERAL
 *****************************/
 
@@ -110,7 +127,8 @@ HEADING (TITLE)
   position: relative;
   text-align: center;
   height: 330px;
-  background-size: 100% auto;
+	width: auto;
+  background-size: cover;
   background-image: url("images/headingbg.jpg");
   background-attachment: fixed;
   padding-top: 1em;
@@ -119,12 +137,13 @@ HEADING (TITLE)
   background-repeat: no-repeat;
 }
 
-#mainTitle {
+.mainTitle {
 	font-family: 'Hammersmith One', arial;
 	font-size: 6.5em;
 	margin-top: 3.7em;
 	color: #F2F2F2;
 	text-shadow: 2px 2px #363636;
+	width: 100%;
 }
 
 #subTitle {
