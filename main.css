@@ -129,7 +129,7 @@ HEADING (TITLE)
   height: 330px;
 	width: auto;
   background-size: cover;
-  background-image: url("images/headingbg.jpg");
+  background-image: url("images/headerbg_ghana.jpg");
   background-attachment: fixed;
   padding-top: 1em;
   margin-bottom: 0;
@@ -137,19 +137,19 @@ HEADING (TITLE)
   background-repeat: no-repeat;
 }
 
-.mainTitle {
+#mainTitle {
 	font-family: 'Hammersmith One', arial;
-	font-size: 6.5em;
-	margin-top: 3.7em;
-	color: #F2F2F2;
-	text-shadow: 2px 2px #363636;
+	font-size: 7.5em;
+	margin-top: 2.7em;
+	color: #DBDBDB;
+	text-shadow: .06em .06em #141414;
 	width: 100%;
 }
 
 #subTitle {
 	font-family: 'Pacifico', arial;
-	color: #F2F2F2;
-	text-shadow: 2px 2px #363636;
+	color: #DBDBDB;
+	text-shadow: .06em .06em #141414;
 }
 
 /*****************************
@@ -181,8 +181,9 @@ SECTION (CONTENT)
 	position: relative;
 	text-align: center;
 	height: 396px;
-	background-size: 100% auto;
+	background-size: cover;
 	background-image: url("images/ghana_streets.jpg");
+	background-repeat: no-repeat;
 	padding-top: 1em;
 	margin-bottom: 0;
 	margin-right: 0;
