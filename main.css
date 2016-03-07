@@ -13,6 +13,23 @@ main page styling
 ------------------------------
 *****************************/
 
+
+/*****************************
+FONTS
+*****************************/
+/* Hammersmith One */
+@import url(https://fonts.googleapis.com/css?family=Hammersmith+One);
+
+/* Noto Sans */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+/* Oxygen */
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+/* Pacifico */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
 /*****************************
 GENERAL
 *****************************/
@@ -168,7 +185,7 @@ footer {
 
 footer p {
 	color: #DF99F2;
-	font-size: 2em;
+	font-size: 1.6em;
 	text-align: center;
-	padding-top: 1em;
+	padding-top: 2em;
 }
